@@ -18,5 +18,9 @@ def find_most_repeated_items(arr):
 
     return values, max_repeat, most_repeated_items
 
-a = [1, 2, 5, 3, 5, 1, -2]
-print(find_most_repeated_items(a))
+arr = [1, 2, 5, 3, 5, 1, -2]
+values, max_repeat, most_repeated_items = find_most_repeated_items(arr)
+
+print("Frequencies:", values)
+print("Max repetition count:", max_repeat)
+print("Most repeated items:", most_repeated_items)
